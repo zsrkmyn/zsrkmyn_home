@@ -1,0 +1,6 @@
+[submodule "pelican-hyde"]
+	path = pelican-hyde
+	url = https://github.com/jvanz/pelican-hyde
+[submodule "output"]
+	path = output
+	url = git@github.com:zsrkmyn/zsrkmyn.github.io.git
