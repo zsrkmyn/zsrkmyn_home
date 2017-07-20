@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Stephen Zhang'
-SITENAME = "ASenR's Home"
+SITENAME = "Stephen's Home"
 SITEURL = ''
 
 PATH = 'content'
@@ -39,4 +39,8 @@ PROFILE_IMAGE = 'avatar.jpg'
 BIO = 'Lazy...'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+CC_LICENSE = 'CC-BY-NC-SA'
+
+PLUGINS = []

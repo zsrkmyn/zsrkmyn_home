@@ -1,1 +1,6 @@
 __pycache__/
+output/
+*.swp
+*.swo
+*.pyc
+*.pyo

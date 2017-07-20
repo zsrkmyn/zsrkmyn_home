@@ -11,14 +11,25 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://zsrkmyn.github.io'
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ATOM = 'feeds/atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
+CC_LICENSE = 'CC-BY-NC-SA'
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = "stephens-home"
+GOOGLE_ANALYTICS = "UA-102901287-1"
+
+PLUGINS += ['minify']
+MINIFY = {
+  'remove_comments': True,
+  'remove_all_empty_space': True,
+  'remove_optional_attribute_quotes': True,
+  'keep_pre': True,
+  'pre_tags': ['pre', 'code', 'textarea', 'tt'],
+}
